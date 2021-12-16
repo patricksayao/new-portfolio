@@ -99,6 +99,12 @@ body {
   clip-path: polygon(0 0, 100% 17%, 100% 100%,0 50%);
 }
 
+.container-vids {
+  /* width="560" height="315" */
+  width: 560px;
+  height: 315px;
+}
+
 .project-1 {
   padding: 2rem;
   height: 20rem;
@@ -336,7 +342,7 @@ body {
   }
 }
 
-@media (max-width: 777px, min-width: 416px) {
+@media (max-width: 777px) {
 
   /*** top section ***/
 
@@ -361,6 +367,10 @@ body {
   .background-shape-2 {
     top: 700px;
     clip-path: polygon(0% 0%, 100% 50%, 100% 100%,0% 50%);
+  }
+
+  .container-vids {
+    width: 50%;
   }
 
   .project-1 {
