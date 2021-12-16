@@ -99,10 +99,10 @@ body {
   clip-path: polygon(0 0, 100% 17%, 100% 100%,0 50%);
 }
 
-/* .container-vids {
-  width: 560px;
-  height: 315px;
-} */
+.container-vids {
+/*   width: 560px; */
+  height: 300px;
+}
 
 .project-1 {
   padding: 2rem;
