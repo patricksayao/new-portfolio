@@ -243,6 +243,11 @@ body {
   z-index:2;
 }
 
+.footer-link {
+  text-decoration:  none;
+  color: black;
+}
+
 
 /********** media breakpoint ***********/
 
